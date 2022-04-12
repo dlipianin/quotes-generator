@@ -1,0 +1,70 @@
+body {
+  background-color: #e3caa5;
+  padding: 5%;
+  font-family: "Questrial";
+}
+
+.container {
+  width: 95%;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  margin: 5% 0;
+  color: #ad8b73;
+  text-transform: uppercase;
+}
+
+.quotes {
+  height: 450px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+  color: gray;
+  background-color: #f4edea;
+  border: 10px solid #f4d1ae;
+  font-family: "Cormorant Upright", serif;
+}
+
+.btn-div {
+  text-align: center;
+}
+
+.btn {
+  border: 1px solid #f4edea;
+  color: #f4edea;
+  margin-bottom: 10%;
+  background-color: #dab88b;
+}
+
+.btn:hover {
+  color: #ad8b73;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+@media (max-width: 480px) {
+  h1,
+  p,
+  h3 {
+    font-size: 1rem;
+  }
+
+  .quotes {
+    height: 350px;
+    padding: 0 25px;
+  }
+}
