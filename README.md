@@ -1,1 +1,1 @@
-# quotes-generator
+# Quotes generator
